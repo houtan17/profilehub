@@ -120,7 +120,7 @@
         .social-btns .btn.telegram:hover:after { background-color: #0088cc; }
         .social-btns .btn.bluesky:hover:after { background-color: #0285FF; }
         .social-btns .btn.threads:hover:after { background-color: #000000; }
-
+        .social-btns .btn.github.btn:hover:after{background-color: #333;}
         footer {
             position: absolute;
             bottom: 20px;
