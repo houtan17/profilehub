@@ -6,7 +6,8 @@
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://shorturl.at/dgpTV');
             background-size: cover;
             background-position: center;
-            color: white;
+            background-color: rgb(214, 148, 155);
+            color: rgb(255, 255, 255);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,8 +16,12 @@
         }
 
         .profile-container {
+            background-image: linear-gradient(to left, rgba(33, 31, 31, 0.855), rgba(140, 20, 20, 0.2)), url(./3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.1);
+            /*background-color: rgba(255, 255, 255, 0.234);*/
             backdrop-filter: blur(10px);
             padding: 40px;
             border-radius: 15px;
@@ -52,17 +57,18 @@
             font-size: 1.1rem;
             margin-top: 10px;
             line-height: 1.6;
-            color: rgb(12, 19, 142);
+            color: rgb(255, 255, 255);
         }
 
         .social-btns {
             margin-top: 30px;
         }
+        
         .greeting {
-            color: rgb(12, 19, 142);
+            color: rgb(243, 243, 243);
         }
         .text{
-            color:rgb(12, 19, 142) ;
+            color:rgb(243, 243, 243) ;
         }
         .social-btns .btn {
             display: inline-block;
@@ -131,10 +137,10 @@
 
     }
     .button{
-        background-color: #ffffff;
+        background-color: #df9f9f;
         color: #000000;
         border-radius: 40px;
-        border:2px solid #6695fc;
+        border:2px ;
         box-shadow:2px  3px 5px #5b5c5c;
         width: 50px;
         transition: 0.5s;
@@ -142,11 +148,11 @@
     }
     .button:hover{
         background-color: #f5f1f1ec;
-        box-shadow: 2px 3px 5px #fff;
+        box-shadow: 2px 3px 5px #ffcaca;
 
     }
     .button:active{
-        background-color: rgba(168, 82, 249, 0.289);
+        background-color: rgba(226, 140, 140, 0.779);
     }
 
       
