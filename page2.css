@@ -1,0 +1,156 @@
+    body {
+            direction: rtl;
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://shorturl.at/dgpTV');
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(214, 148, 155);
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .profile-container {
+              background-image: linear-gradient(to left, rgba(33, 31, 31, 0.855), rgba(140, 20, 20, 0.2)), url(./3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            /* background-color: rgba(255, 255, 255, 0.1); */
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 500px;
+            width: 100%;
+        
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #4c98fb;
+            margin-bottom: 20px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+        .profile-pic:hover{
+             box-shadow: 5px 5px 10px rgba(5, 130, 208, 0.5); 
+        }
+       
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+           color: rgb(255, 255, 255);
+          
+        }
+      
+        .bio {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            line-height: 1.6;
+            color: rgb(255, 255, 255);
+        }
+
+        .social-btns {
+            margin-top: 30px;
+        }
+        .greeting {
+            color: rgb(255, 255, 255);
+        }
+        .text{
+            color:rgb(255, 255, 255) ;
+        }
+        .social-btns .btn {
+            display: inline-block;
+            background-color: #fff;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            margin: 0 10px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%; /* دکمه‌های دایره‌ای */
+            box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .social-btns .btn:hover {
+            transform: translateY(-5px); /* افکت حرکت به بالا */
+            box-shadow: 0 8px 20px -5px rgba(0, 0, 0, 0.4);
+        }
+
+        .social-btns .btn .fa {
+            font-size: 28px;
+            vertical-align: middle;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .social-btns .btn:hover .fa {
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        /* Hover effect with background color */
+        .social-btns .btn:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: scale(0);
+            transition: all 0.3s ease;
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .social-btns .btn:hover:after {
+            transform: scale(1);
+        }
+
+        /* Colors */
+        .social-btns .btn.facebook:hover:after { background-color: #3B5998; }
+        .social-btns .btn.twitter:hover:after { background-color: #1DA1F2; }
+        .social-btns .btn.instagram:hover:after { background-color: #E1306C; }
+        .social-btns .btn.telegram:hover:after { background-color: #0088cc; }
+        .social-btns .btn.bluesky:hover:after { background-color: #0285FF; }
+        .social-btns .btn.threads:hover:after { background-color: #000000; }
+        .social-btns .btn.github.btn:hover:after{background-color: #333;}
+
+    .header-text{
+       text-align: left;
+       
+       
+       
+
+    }
+    .button{
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 40px;
+        border:2px solid #6695fc;
+        box-shadow:2px  3px 5px #5b5c5c;
+        transition: 0.5s;
+        
+    }
+    .button:hover{
+        background-color: #f5f1f1ec;
+        box-shadow: 2px 3px 5px #fff;
+
+    }
+    .button:active{
+        background-color: rgba(168, 82, 249, 0.289);
+    }
+
+      
