@@ -3,10 +3,10 @@
             font-family: 'Vazirmatn', sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://shorturl.at/dgpTV');
+            background-image: linear-gradient(rgba(10, 49, 48, 0.5), rgba(255, 0, 0, 0.5)), url('https://shorturl.at/dgpTV');
             background-size: cover;
             background-position: center;
-            background-color: rgb(214, 148, 155);
+            background-color: rgba(34, 133, 231, 0.871);
             color: rgb(255, 255, 255);
             display: flex;
             justify-content: center;
@@ -15,8 +15,10 @@
             box-sizing: border-box;
         }
 
+
+
         .profile-container {
-            background-image: linear-gradient(to left, rgba(33, 31, 31, 0.855), rgba(140, 20, 20, 0.2)), url(./3.jpg);
+            background-image: linear-gradient(to left, rgba(33, 31, 31, 0.855), rgba(140, 20, 20, 0.2)), url(./4.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -24,9 +26,8 @@
             /*background-color: rgba(255, 255, 255, 0.234);*/
             backdrop-filter: blur(10px);
             padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
             max-width: 500px;
             width: 100%;
         
@@ -142,12 +143,13 @@
         border-radius: 40px;
         border:2px ;
         box-shadow:2px  3px 5px #5b5c5c;
-        width: 50px;
+        width: 25px;
+        height: 25px;
         transition: 0.5s;
         
     }
     .button:hover{
-        background-color: #f5f1f1ec;
+        background-color: #ec8c0eee;
         box-shadow: 2px 3px 5px #ffcaca;
 
     }
